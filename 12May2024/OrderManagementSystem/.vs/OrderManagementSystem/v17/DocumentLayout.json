@@ -1,0 +1,545 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\dailymenuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\dailymenuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\procurementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\procurementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\models\\procurementdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\models\\procurementdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\dtosforapi\\procurementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\dtosforapi\\procurementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\migrations\\20240524133639_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\migrations\\20240524133639_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\saleheaderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\saleheaderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\procurementdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\procurementdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\dtosforapi\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\dtosforapi\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\contacts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\contacts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\invoicegenerator\\invoicenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\invoicegenerator\\invoicenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\ordermanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\ordermanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\models\\recipeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\models\\recipeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\models\\procurement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\models\\procurement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\recipeitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\recipeitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OrderManagementDB/True/SqlTable/dbo.Procurements.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\dtosforapi\\recipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\dtosforapi\\recipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\controllers\\requisitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\controllers\\requisitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementclasslibrary\\models\\dailymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A33527D-D6C7-4348-AF73-D2BFE873BE90}|OrderManagementClassLibrary\\OrderManagementClassLibrary.csproj|solutionrelative:ordermanagementclasslibrary\\models\\dailymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|c:\\users\\mdmon\\onedrive\\desktop\\12may2024\\ordermanagementsystem\\ordermanagementapi\\migrations\\20240511063252_iton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535CC6A0-E715-4810-AB26-78B8D08D3A6E}|OrderManagementAPI\\OrderManagementAPI.csproj|solutionrelative:ordermanagementapi\\migrations\\20240511063252_iton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240524133639_final.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Migrations\\20240524133639_final.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Migrations\\20240524133639_final.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Migrations\\20240524133639_final.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Migrations\\20240524133639_final.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T13:36:40.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DailyMenusController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\DailyMenusController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\DailyMenusController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\DailyMenusController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\DailyMenusController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:53:54.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcurementsController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\ProcurementsController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\ProcurementsController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\ProcurementsController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\ProcurementsController.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAgwIAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T04:57:34.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\Item.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\Models\\Item.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:55:44.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\ItemsController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwEQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:22:13.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StocksController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\StocksController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\StocksController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\StocksController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\StocksController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T03:38:48.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:48:22.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProcurementDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOsForAPI\\ProcurementDTO.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\DTOsForAPI\\ProcurementDTO.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOsForAPI\\ProcurementDTO.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\DTOsForAPI\\ProcurementDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T04:21:09.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcurementDetails.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\ProcurementDetails.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\Models\\ProcurementDetails.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\ProcurementDetails.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\Models\\ProcurementDetails.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T05:29:53.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaleHeadersController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\SaleHeadersController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\SaleHeadersController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\SaleHeadersController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\SaleHeadersController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAIwFMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T03:29:38.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProcurementDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\ProcurementDetailsController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\ProcurementDetailsController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\ProcurementDetailsController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\ProcurementDetailsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAGIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:18:23.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOs\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\DTOs\\ServiceResponse.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOs\\ServiceResponse.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\DTOs\\ServiceResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:48:25.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOsForAPI\\ItemDTO.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\DTOsForAPI\\ItemDTO.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOsForAPI\\ItemDTO.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\DTOsForAPI\\ItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:49:01.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:48:35.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Contacts\\IUserAccount.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\Contacts\\IUserAccount.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Contacts\\IUserAccount.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\Contacts\\IUserAccount.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:48:41.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOs\\UserSession.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\DTOs\\UserSession.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOs\\UserSession.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\DTOs\\UserSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:48:19.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Repository\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Repository\\AccountRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:47:51.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InvoiceNumber.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\InvoiceGenerator\\InvoiceNumber.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\InvoiceGenerator\\InvoiceNumber.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\InvoiceGenerator\\InvoiceNumber.cs",
+              "RelativeToolTip": "OrderManagementAPI\\InvoiceGenerator\\InvoiceNumber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:47:31.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\appsettings.json",
+              "RelativeToolTip": "OrderManagementAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-11T06:47:16.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderManagementAPI.http",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\OrderManagementAPI.http",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\OrderManagementAPI.http",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\OrderManagementAPI.http",
+              "RelativeToolTip": "OrderManagementAPI\\OrderManagementAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-11T06:47:13.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240511063252_iton.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Migrations\\20240511063252_iton.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Migrations\\20240511063252_iton.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Migrations\\20240511063252_iton.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Migrations\\20240511063252_iton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:32:52.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RecipeItem.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\RecipeItem.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\Models\\RecipeItem.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\RecipeItem.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\Models\\RecipeItem.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:56:03.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:36:29.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Procurement.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\Procurement.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\Models\\Procurement.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\Procurement.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\Models\\Procurement.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T04:59:44.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\Recipe.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\Models\\Recipe.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:55:29.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\RecipesController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\RecipesController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\RecipesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T04:30:13.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RecipeItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\RecipeItemsController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\RecipeItemsController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\RecipeItemsController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\RecipeItemsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T05:26:57.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "dbo.Procurements [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OrderManagementDB/True/SqlTable/dbo.Procurements.sql",
+              "ToolTip": "dbo.Procurements [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-09T04:12:39.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RecipeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOsForAPI\\RecipeDTO.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\DTOsForAPI\\RecipeDTO.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\DTOsForAPI\\RecipeDTO.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\DTOsForAPI\\RecipeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T05:09:04.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DailyMenu.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\DailyMenu.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\Models\\DailyMenu.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\DailyMenu.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\Models\\DailyMenu.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:54:31.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RequisitionsController.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\RequisitionsController.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Controllers\\RequisitionsController.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Controllers\\RequisitionsController.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Controllers\\RequisitionsController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAIAwwGgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T07:06:07.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "OrderManagementClassLibrary\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementClassLibrary\\Models\\Stock.cs",
+              "RelativeToolTip": "OrderManagementClassLibrary\\Models\\Stock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:54:22.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "OrderManagementAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mdmon\\OneDrive\\Desktop\\12May2024\\OrderManagementSystem\\OrderManagementAPI\\Program.cs",
+              "RelativeToolTip": "OrderManagementAPI\\Program.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T17:53:42.352Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<mat-tab-group #tabGroup>
+  <mat-tab label="Add Procurement">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mt-5">
+            <div class="card-body">
+              <div class="mb-2">
+                <label>Procurement Date</label>
+                <input type="date" [(ngModel)]="procurementObj.proDate" placeholder="Procurement Date"
+                  class="form-control">
+              </div>
+              <div class="mb-2">
+                <label>Select Requisition</label>
+                <select [(ngModel)]="procurementObj.reqDate" class="form-control">
+                  <option disabled value="null">---Select---</option>
+                <option *ngFor="let date of getDistinctDates()" [ngValue]="date">{{date | date}}</option>
+                </select>
+              </div>
+              <div class="mb-2">
+                <label>Select Item</label>
+                <select [(ngModel)]="procurementDetailsObj.itemId" class="form-control">
+                  <option disabled value="">---Select---</option>
+                  <ng-container *ngFor="let item of requsitionList">
+                    <ng-container *ngIf="item.requisitionDate === procurementObj.reqDate">
+                      <ng-container *ngFor="let i of itemList">
+                        <option *ngIf="i.itemId === item.itemId" [value]="item.itemId">{{ i.name }}</option>
+                      </ng-container>
+                    </ng-container>
+                  </ng-container>
+                </select>
+              </div>
+              <div class="mb-2">
+                <label>Procurement Quantity</label>
+                <input type="number" [(ngModel)]="procurementDetailsObj.procurementQuantity" class="form-control">
+              </div>
+              <div class="mb-2">
+                <label>Item Unit Price</label>
+                <input type="number" [(ngModel)]="procurementDetailsObj.itemUnitPrice" class="form-control">
+              </div>
+
+              <button (click)="addProcurementDetails()" class="btn btn-success btn-block btn-sm">Add Procurement Details</button>
+              <button (click)="postProcurement()" class="btn btn-primary btn-block btn-sm" >Purchase</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mt-5">
+            <div class="card-body">
+              <table class="table table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Procurement Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of procurementItemListAdd">
+                    <ng-container *ngFor="let i of itemList">
+                      <td *ngIf="item.itemId == i.itemId">{{i.name}}</td>
+                    </ng-container>
+                    <td>{{item.procurementQuantity}}</td>
+                    <td>{{item.itemUnitPrice}}</td>
+                    <td><button class="btn btn-danger btn-sm" (click)="deleteProcurementDetails(item, procurementItemListAdd)">Delete</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+  <mat-tab label="Procurement List">
+    <div class="container mt-4">
+      <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Procurement Date</th>
+            <th scope="col">Requisition Date</th>
+            <th scope="col">ItemName</th>
+            <th scope="col">Total Amount</th>
+            <th scope="col">Receipt</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of procurementList">
+            <td>{{item.procurementDate}}</td>
+            <td>{{item.requisitionDate}}</td>
+          <ng-container *ngFor="let det of item.procurementDetails">
+          <ng-container *ngFor="let i of itemList">
+<td *ngIf="det.itemId==i.itemId">
+{{i.name}}</td>
+          </ng-container>
+
+          </ng-container>
+            <td>{{item.amount}}</td>
+           <td><button class="btn btn-info btn-sm mr-2" (click)="generateInvoice(item)">Receipt</button></td> 
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </mat-tab>
+</mat-tab-group>

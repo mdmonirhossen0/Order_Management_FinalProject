@@ -1,0 +1,89 @@
+<mat-tab-group #tabGroup>
+  <mat-tab label="Add Daily Menu">
+    <div class="container mt-4">
+      <div class="row">
+          <div class="col-md-6 offset-md-3">
+              <div class="card mt-5">
+                  <div class="card-body">
+                    <h1>Add Daily Menu</h1>
+                    <div class="mb-3">
+                      <label>Select Menu</label>
+                      <select [(ngModel)]="dailyMenuObj.recipeId" class="form-control">
+                        <option disabled value="null">---Select---</option>
+                        <option *ngFor="let recipe of recipes" [value]="recipe.recipeId">{{recipe.recipeName}}</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label>DemandQuantity</label>
+                      <input placeholder="Enter demandQuantity" [(ngModel)]="dailyMenuObj.demandQuantity" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label>Price</label>
+                      <input placeholder="Enter price" [(ngModel)]="dailyMenuObj.price" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label>Date</label>
+                      <input type="date" placeholder="Date" [(ngModel)]="dailyMenuObj.dailyMenuDate" class="form-control">
+                    </div>
+                    <div class="mb-3 mt-4">
+                      <button type="submit" class="btn btn-primary btn-block" (click)="addDailyMenu()">Submit</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </mat-tab>
+
+  <mat-tab label="View Daily Menu">
+    <div class="container mt-4">
+      <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Menu Date</th>
+            <th scope="col">Demand Quantity</th>
+            <th scope="col">Cooked Quantity</th>
+            <th scope="col">Serving Quantity</th>
+            <th scope="col">Menu Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let item of dailyMenuList;let i = index">
+            <tr>
+              <td *ngIf="!editing[i]">{{item.dailyMenuDate|date}}</td>
+              <td *ngIf="editing[i]"><input [(ngModel)]="item.dailyMenuDate" type="date"></td>
+              <td *ngIf="!editing[i]">{{item.demandQuantity}}</td>
+              <td *ngIf="editing[i]"><input [(ngModel)]="item.demandQuantity" type="number"></td>
+              <td *ngIf="!editing[i]">{{item.cookedQuantity}}</td>
+              <td *ngIf="editing[i]"><input [(ngModel)]="item.cookedQuantity" type="number"></td>
+              <td *ngIf="!editing[i]">{{item.servingQuantity}}</td>
+              <td *ngIf="editing[i]"><input [(ngModel)]="item.servingQuantity" type="number"></td>
+              <td *ngIf="!editing[i]">{{item.recipe?.recipeName}}</td>
+              <td *ngIf="editing[i]">
+                <select [(ngModel)]="item.recipeId" class="form-control">
+                  <option disabled value="null">---Select---</option>
+                  <option *ngFor="let recipe of recipes" [value]="recipe.recipeId">{{recipe.recipeName}}</option>
+                </select>
+              </td>
+              <td *ngIf="!editing[i]">{{item.price}}</td>
+              <td *ngIf="editing[i]">
+                <input [(ngModel)]="item.price" type="number">
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary btn-sm mr-2" (click)="openPatchDialog(item)">
+                  Cooked
+                </button>          
+                <button class="btn btn-secondary btn-sm mr-2" *ngIf="!editing[i]" (click)="editing[i] = true">Edit</button>
+                <button class="btn btn-secondary btn-sm mr-2" *ngIf="editing[i]" (click)="updateDailyMenu(i, item)">Update</button>
+                <button class="btn btn-secondary btn-sm mr-2" (click)="cancelEdit(i)" *ngIf="editing[i]">CancelEditing</button>
+                <button class="btn btn-danger btn-sm mr-2" (click)="deleteMenu(item.dailyMenuId)">Delete</button>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+  </mat-tab>
+</mat-tab-group>

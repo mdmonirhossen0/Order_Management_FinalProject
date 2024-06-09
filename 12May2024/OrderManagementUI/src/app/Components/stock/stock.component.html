@@ -1,0 +1,18 @@
+<div class="container mt-4">
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Item Name</th>
+                <th scope="col">Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let i of stockList">
+                <ng-container *ngFor="let t of itemList">
+                    <td *ngIf="i.itemId == t.itemId">{{t.name}}</td>
+                    <td *ngIf="i.itemId == t.itemId">{{i.quantity}}  {{t.unit}}</td>
+                </ng-container>
+            </tr>
+        </tbody>
+    </table>
+</div>

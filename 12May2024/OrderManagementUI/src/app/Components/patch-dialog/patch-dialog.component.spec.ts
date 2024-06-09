@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { PatchDialogComponent } from './patch-dialog.component';
+
+describe('PatchDialogComponent', () => {
+  let component: PatchDialogComponent;
+  let fixture: ComponentFixture<PatchDialogComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [PatchDialogComponent]
+    })
+    .compileComponents();
+    
+    fixture = TestBed.createComponent(PatchDialogComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

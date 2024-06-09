@@ -1,0 +1,93 @@
+<mat-tab-group #tabGroup>
+  <mat-tab label="Add Item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="card mt-5">
+            <div class="card-body">
+              <h2 class="card-title text-center mb-4">Items</h2>
+              <form (ngSubmit)="addItem()" #itemForm="ngForm" class="mb-3">
+                <div class="form-group">
+                  <label for="itemName">Name:</label>
+                  <input type="text" class="form-control" id="itemName" name="itemName" [(ngModel)]="newItem.name"
+                    required>
+                </div>
+                <div class="form-group">
+                  <label for="itemUnit">Unit:</label>
+                  <input type="text" class="form-control" id="itemUnit" name="itemUnit" [(ngModel)]="newItem.unit"
+                    required>
+                </div>
+                <div class="form-group">
+                  <label for="itemType">Type:</label>
+                  <input type="text" class="form-control" id="itemType" name="itemType" [(ngModel)]="newItem.type"
+                    required>
+                </div>
+                <button type="submit" class="btn btn-primary">Add Item</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+  <mat-tab label="View Item">
+    <!-- paging -->
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-4">
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label class="control-label" for="noOfRows">No. of Rows to Show:</label>
+            </div>
+            <div class="col-auto">
+              <select name="noOfRows" (change)="onTableSizeChange($event)" class="form-select form-select-sm">
+                <option *ngFor="let size of tableSize" [ngValue]="size">
+                  {{ size }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Unit</th>
+            <th>Type</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items | paginate : pagingConfig; let i = index">
+            <td *ngIf="!editingItem[i]">{{ item.name }}</td>
+            <td *ngIf="!editingItem[i]">{{ item.unit }}</td>
+            <td *ngIf="!editingItem[i]">{{ item.type }}</td>
+            <td *ngIf="!editingItem[i]">
+              <button class="btn btn-sm btn-info mr-2" (click)="editingItem[i] = true">Edit</button>
+              <button class="btn btn-sm btn-danger" (click)="deleteItem(item.itemId)">Delete</button>
+            </td>
+            <td *ngIf="editingItem[i]" colspan="4">
+              <div class="form-group">
+                <input type="text" class="form-control mb-2" [(ngModel)]="item.name" placeholder="Name">
+                <input type="text" class="form-control mb-2" [(ngModel)]="item.unit" placeholder="Unit">
+                <input type="text" class="form-control mb-2" [(ngModel)]="item.type" placeholder="Type">
+              </div>
+              <div>
+                <button class="btn btn-sm btn-success" (click)="updateItem(i, item)">Update</button>
+                <button class="btn btn-sm btn-secondary ml-2" (click)="cancelEdit(i)">Cancel</button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- paging -->
+      <div class="d-flex justify-content-center">
+        <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="onTableDataChange($event)">
+        </pagination-controls>
+      </div>
+    </div>
+  </mat-tab>
+</mat-tab-group>
